@@ -4,8 +4,9 @@
   "description": "OrangeHRM Test",
   "main": "Main.xaml",
   "dependencies": {
-    "ObjectRepoLib": "[1.0.7]",
+    "ObjectRepoLib": "[1.0.9]",
     "ReporterForUiPath.Activities": "[3.0.1]",
+    "UiPath.DropboxBusiness.IntegrationService.Activities": "[5.0.0]",
     "UiPath.Excel.Activities": "[2.22.3]",
     "UiPath.System.Activities": "[23.10.5]",
     "UiPath.Testing.Activities": "[23.4.0]",
@@ -15,7 +16,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.12.0.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.7",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -71,6 +72,13 @@
         "testCaseId": "2a4f3aab-dc40-4774-afb3-b3d55fed0a1e",
         "testCaseType": "TestCase",
         "fileName": "BusinessComponents\\HRM_Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9e76306d-6e4d-49bf-b4be-064783ced115",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC02_AddCandidate.xaml"
       }
     ],
     "saveToCloud": false
